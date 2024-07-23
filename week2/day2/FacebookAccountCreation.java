@@ -36,7 +36,7 @@ public class FacebookAccountCreation {
 		Select year = new Select(yearElement);
 		year.selectByVisibleText("1998");
 		
-		driver.findElement(By.name("sex"));				
+		driver.findElement(By.xpath("//input[@value = '2']")).click();				
 		
 
 	}
